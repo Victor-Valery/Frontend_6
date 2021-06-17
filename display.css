@@ -1,0 +1,43 @@
+.head1 {
+    color: purple;
+}
+.head2 {
+    color: royalblue;
+}
+.head3{
+    color: seagreen;
+}
+span.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellowgreen;
+    background-color: purple;
+    color: white;
+}
+span.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 2px solid yellow;
+    background-color: royalblue;
+}
+span.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color: seagreen;
+}
+span.d {
+    /* display none */
+    visibility: hidden;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid orange;
+    background-color: seagreen;
+}
